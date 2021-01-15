@@ -1,0 +1,82 @@
+table {
+    color: $textColor;
+    text-align: left;
+    width: 100%;
+
+    thead {
+        tr {
+            th {
+                padding: 8px 4px;
+                font-size: 12px;
+                color: $neutralColor2;
+            }
+
+            td {
+                font-size: 14px;
+                font-weight: bold;
+                padding: 8px 4px;
+                border-bottom: 1px solid $neutralColor4;
+            }
+
+            &.noBorder {
+
+                th,
+                td {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            th {
+                font-size: 16px;
+                font-weight: bold;
+                padding: 6px 4px;
+                vertical-align: top;
+                text-align: left;
+                line-height: 32px;
+
+                &.th-sub {
+                    font-weight: 400;
+                }
+            }
+
+            td {
+                padding: 6px 4px;
+                font-size: 16px;
+                font-weight: normal;
+                color: $neutralColor1;
+                vertical-align: top;
+                line-height: 32px;
+
+                &.td-sub {
+                    font-size: 14px;
+                }
+
+                &.td-separator {
+                    width: 22px;
+                }
+            }
+
+            &.hasBorder {
+
+                th,
+                td {
+                    border-bottom: 1px solid $neutralColor4;
+                }
+            }
+        }
+    }
+
+    &.hasRequired {
+        tbody {
+            tr {
+                th {
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,4 +1,4 @@
-# feapp
+# my-app
 
 ## Project setup
 ```

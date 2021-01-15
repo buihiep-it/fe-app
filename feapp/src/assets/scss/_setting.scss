@@ -1,0 +1,61 @@
+$primaryColor: #4baca0;
+$secondaryColor: #ffde56;
+$accentColor: #68a4d9;
+$successColor: #58b25c;
+$infoColor: #00afcc;
+$errorColor: #dc4f4f;
+$warningColor: #fecf33;
+$white: #ffffff;
+
+$textColor: #161616;
+$textLightColor: #919191;
+$textLpColor: #393838;
+$backgroundColor: #f9fbfc;
+
+$shadeColor1: #94e4da;
+$shadeColor2: #e4f6f6; 
+$shadeColor3: #387d39; 
+$secondaryShadeColor1: #e5a323;
+$secondaryShadeColor2: #f1ab24;
+$secondaryShadeColor3: #fff8eb;
+$accentShadeColor1: #516b88;
+$accentShadeColor2: #6c86a4;
+$accentShadeColor3: #daf0f5;
+$neutralColor0: #515151;
+$neutralColor1: #666;
+$neutralColor2: #919191;
+$neutralColor3: #c4c4c4;
+$neutralColor4: #ccc;
+$neutralColor5: #f2f2f2;
+$brightOrangeColor: #ff6600;
+$switchOnColor: #65ab31;
+$ifaColor: #eb6ea0;
+$fpColor: #e5a323;
+$cardColor: #d79276;
+$lightRed: #e73562;
+
+.scrollBar {
+    overflow: auto;
+    overflow: overlay;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+        display: none;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(102, 102, 102, 0.16);
+        // outline: 1px solid rgba(102, 102, 102, 0.16);
+        border-radius: 2px;
+    }
+}
+
+@mixin ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

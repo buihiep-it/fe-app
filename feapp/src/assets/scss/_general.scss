@@ -1,0 +1,39 @@
+.block {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    header & {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+.headding {
+    text-align: center;
+    margin: 40px 0;
+    text-transform: uppercase;
+}
+.sub-headding {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+.v-icon.v-icon {
+    font-size: 16px;
+}
+.v-text-field {
+    padding-top: 0;
+    margin-top: 0;
+}
+.errorMessage {
+    color: red;
+    font-size: 12px;
+}
+img {
+    max-width: 100%;
+}
+.footer {
+    margin: 0 auto;
+}
